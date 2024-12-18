@@ -1,6 +1,6 @@
 import React from "react";
 import LandingRoutes from "./routes";
-import "./App.css";
+// import "./App.css";
 
 function App() {
   return (

@@ -7,6 +7,8 @@ import UIUXIcon from "../../assets/Images/UIUXIcon.svg";
 import WebDevelopmentIcon from "../../assets/Images/WebDevelopmentIcon.svg";
 import AIDevelopmentIcon from "../../assets/Images/AIDevelopmentIcon.svg";
 import BlockchainDevelopmentIcon from "../../assets/Images/BlockchainDevelopmentIcon.svg";
+import ITStaffBlock2Bg from "../../assets/Images/ITStaffBlock2Bg.png";
+import ClockIcon from "../../assets/Images/ClockIcon.svg";
 import "./ITstaffSection.css";
 
 const ITStaffSection = () => {
@@ -56,7 +58,7 @@ const ITStaffSection = () => {
                 </div>
               </div>
             </Col>
-            <Col span={24} lg={13} className="box2">
+            <Col span={24} lg={14} className="box2">
               <div className="box2-heading">
                 <p>Advantages Of Hiring Our Team</p>
               </div>
@@ -93,6 +95,27 @@ const ITStaffSection = () => {
                     </p>
                   </div>
                 </div>
+              </div>
+            </Col>
+          </Row>
+        </div>
+        <div className="content-row-1">
+          <Row span={24} className="boxes">
+            <Col span={24} lg={14} className="only-image-box"></Col>
+            <Col span={24} lg={10} className="itstaff-box4">
+              <div className="itstaff-box4-text">
+                <p className="itstaff-box4-heading">Top-Tier Engineers</p>
+                <p className="itstaff-box4-subtext">
+                  Skip the lengthy and expensive recruitment process. Access IT
+                  specialists exactly when you need them and pay only for the
+                  hours worked.
+                </p>
+              </div>
+              <div className="itstaff-box4-content-div">
+                <img src={ClockIcon} />
+                <p className="itstaff-box4-content-div-text">
+                  Get your team up in as little as 3 weeks
+                </p>
               </div>
             </Col>
           </Row>
