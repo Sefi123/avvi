@@ -1,0 +1,31 @@
+
+.technologies{
+    display: flex;
+    width: 14.28%;
+    flex-direction: column;
+    gap: 16px;
+    padding: 32px;
+    /* border: 2px solid red; */
+    height: auto;
+    align-self: flex-start;
+    border-left: 1px solid #D9D9D9 ;
+}
+
+/* .technologies > h3 {
+    color:  #6B6B6B;
+    font-family: "General-Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.198px;
+} */
+.languages{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+
+
+

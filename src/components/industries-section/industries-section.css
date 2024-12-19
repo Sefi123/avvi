@@ -1,0 +1,147 @@
+h1 {
+  font-family: "General-Sans";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.528px;
+  text-transform: capitalize;
+}
+.col-4 {
+
+  width: 33.33%;
+  display: flex;
+  /* border: 2px solid red; */
+}
+.col-6 {
+  width: 50%;
+  display: flex;
+  /* border: 1px solid red; */
+}
+
+.industries-section {
+  /* box-shadow: 2px 4px 11px rgba(0, 0, 0, 0.1); */
+  width: 90%;
+  margin: auto;
+  /* border: 2px solid #d9d9d9; */
+  padding-top: 32px;
+  margin-block: 20px;
+  /* background-color: #F7F7F7; */
+  border-radius: 12px;
+}
+.industries-container {
+  max-width: 100%;
+  margin: auto;
+
+  /* border: 2px solid red; */
+}
+.industries-row {
+  display: flex;
+  gap: 16px;
+  margin: 16px 0px;
+}
+.industries-main-heading-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+.mv-industries-main-heading-wrapper{
+  display: none;
+}
+.industries-sub-heading {
+  border: 1px solid #d9d9d9;
+  padding: 8px 16px;
+  display: inline-block;
+  border-radius: 25px;
+  background: linear-gradient(99deg, #515151 -21.1%, #e8e8e8 137.88%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "General Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.198px;
+}
+.responsibilities-details {
+  border: 1px solid #d9d9d9;
+  padding: 8px 12px;
+  display: inline-block;
+  border-radius: 25px;
+  background-color: #f1f1f1;
+  color: #6b6b6b;
+  font-family: "General Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.198px;
+}
+@media (max-width: 992px) {
+  h1{
+    text-align: center;
+font-family: "General Sans";
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.264px;
+text-transform: capitalize;
+  }
+  h2{
+    font-family: "General Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 30px */
+letter-spacing: -0.22px;
+  }
+  .industries-section{
+    /* background-color: red; */
+  }
+  .industries-main-heading-wrapper {
+    display: none;
+  }
+  .mv-industries-main-heading-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 24px;
+    
+  }
+  .industries-sub-heading {
+    
+      font-size: 14px;
+      letter-spacing: -0.154px;
+  }
+  
+
+  .col-4 {
+
+    width:100%;
+    display: block;
+    /* border: 2px solid red; */
+  }
+  .col-6 {
+    width: 100%;
+    display: block;
+    /* border: 1px solid red; */
+  }
+  .industries-row {
+    flex-direction: column;
+  }
+  .responsibilities-details{
+    
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.154px;
+  } 
+
+  
+
+}

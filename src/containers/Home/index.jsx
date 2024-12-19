@@ -5,6 +5,9 @@ import { Row, Col, Button, Flex } from "antd";
 
 import "./home.css";
 import ITStaffSection from "../../components/ITStaffSection";
+import TechnologyStack from "../../components/Technology-section";
+import Industries from "../../components/industries-section";
+import CaseStudy from "../../components/caseStudy";
 
 const Home = () => {
   return (
@@ -34,6 +37,10 @@ const Home = () => {
         </Flex>
       </div>
       <ITStaffSection />
+      <TechnologyStack/>
+      <Industries/>
+      <CaseStudy/>
+      
     </>
   );
 };

@@ -1,0 +1,142 @@
+.case-study-col-6{
+    width: 50%;
+    display: block;
+}
+.case-study-text-primary {
+  color: #6b6b6b;
+  /* text-align: center; */
+  font-family: "General-Sans";
+  font-size: 24px;
+
+  font-weight: 500;
+  line-height: 150%; /* 36px */
+  letter-spacing: -0.264px;
+}
+.case-study-text-secondary {
+  color: #6b6b6b;
+
+  font-family: "General-Sans";
+  font-size: 18px;
+
+  font-weight: 500;
+
+  letter-spacing: -0.198px;
+}
+.text-black{
+    color: black;
+}
+
+.case-study-section {
+  /* box-shadow: 2px 4px 11px rgba(0, 0, 0, 0.1); */
+  width: 90%;
+  margin: auto;
+  /* border: 2px solid #d9d9d9; */
+  padding-top: 32px;
+  margin-block: 20px;
+  /* background-color: #F7F7F7; */
+  border-radius: 12px;
+
+}
+.case-study-main-heading-wrapper{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 12px;
+ 
+}
+.case-study-main-heading-wrapper p:nth-child(3){
+    width: 55%;
+}
+
+.case-study-sub-heading {
+  border: 1px solid #d9d9d9;
+  padding: 8px 16px;
+  display: inline-block;
+  border-radius: 25px;
+  background: linear-gradient(99deg, #515151 -21.1%, #e8e8e8 137.88%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "General-Sans";
+  font-size: 18px;
+  letter-spacing: -0.198px;
+}
+.case-study-row{
+display: flex;
+background-color: #F7F7F7;
+border: 1px solid #d9d9d9;;
+border-radius: 12px;
+}
+.case-study-image-wrapper img{
+    width: 100%;
+}
+.case-study-right-top{
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.case-study-right-mid{
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-block: 1px solid #d9d9d9;
+}
+.case-study-right-top-header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.case-study-right-top-headings{
+    border: 1px solid #d9d9d9;
+    padding: 8px 16px;
+    display: flex;
+    border-radius: 25px;
+    font-size: 18px;
+    letter-spacing: -0.198px;
+    font-weight: 500;
+    background-color: #F1F1F1;
+}
+.case-study-details{
+    border: 1px solid #d9d9d9;
+    padding: 8px 12px;
+    display: inline-block;
+    background-color: #f1f1f1;
+    color: #6b6b6b;
+    font-family: "General-Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.198px;
+    display:flex;
+    align-items: center;
+    gap: 6px;
+    border-radius: 8px;
+}
+.case-study-responsibilities
+{
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.case-study-responsibility-wrapper img{
+    width: 10%;
+}
+.case-study-right-bottom{
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.case-study-right-bottom-wrapper{
+    display: flex;
+    gap: 8px;
+}
+
